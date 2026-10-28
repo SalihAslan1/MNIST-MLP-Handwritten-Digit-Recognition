@@ -6,3 +6,4 @@ data/
 .DS_Store
 .pytest_cache/
 Thumbs.db
+results/handwriting_attempts/
