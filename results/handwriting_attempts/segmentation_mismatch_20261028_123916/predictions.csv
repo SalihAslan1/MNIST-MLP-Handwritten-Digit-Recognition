@@ -1,0 +1,2 @@
+position,predicted_digit,confidence,bounding_box
+1,5,0.9691344499588013,"[399, 125, 523, 1357]"

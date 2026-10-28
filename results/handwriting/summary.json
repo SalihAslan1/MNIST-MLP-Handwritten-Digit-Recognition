@@ -1,0 +1,199 @@
+{
+  "image": "handwriting/student_id.jpeg",
+  "checkpoint": "models/baseline.pt",
+  "experiment": "baseline",
+  "best_epoch": 6,
+  "preprocessing": {
+    "threshold": 110,
+    "min_area": 20,
+    "background_blur_radius": 40.0,
+    "mean": 0.1307,
+    "std": 0.3081,
+    "centering": "center_of_mass"
+  },
+  "predicted_id": "13410205527",
+  "detected_count": 11,
+  "predictions": [
+    {
+      "position": 1,
+      "predicted_digit": 1,
+      "confidence": 0.502848207950592,
+      "bounding_box": [
+        220,
+        460,
+        301,
+        543
+      ],
+      "expected_digit": 2,
+      "correct": false
+    },
+    {
+      "position": 2,
+      "predicted_digit": 3,
+      "confidence": 0.9585144519805908,
+      "bounding_box": [
+        402,
+        441,
+        451,
+        513
+      ],
+      "expected_digit": 3,
+      "correct": true
+    },
+    {
+      "position": 3,
+      "predicted_digit": 4,
+      "confidence": 0.5065948963165283,
+      "bounding_box": [
+        540,
+        423,
+        567,
+        504
+      ],
+      "expected_digit": 1,
+      "correct": false
+    },
+    {
+      "position": 4,
+      "predicted_digit": 1,
+      "confidence": 0.642072856426239,
+      "bounding_box": [
+        645,
+        426,
+        711,
+        500
+      ],
+      "expected_digit": 2,
+      "correct": false
+    },
+    {
+      "position": 5,
+      "predicted_digit": 0,
+      "confidence": 0.9760309457778931,
+      "bounding_box": [
+        768,
+        414,
+        840,
+        486
+      ],
+      "expected_digit": 0,
+      "correct": true
+    },
+    {
+      "position": 6,
+      "predicted_digit": 2,
+      "confidence": 0.9304494857788086,
+      "bounding_box": [
+        890,
+        411,
+        949,
+        479
+      ],
+      "expected_digit": 2,
+      "correct": true
+    },
+    {
+      "position": 7,
+      "predicted_digit": 0,
+      "confidence": 0.6930948495864868,
+      "bounding_box": [
+        987,
+        404,
+        1061,
+        462
+      ],
+      "expected_digit": 0,
+      "correct": true
+    },
+    {
+      "position": 8,
+      "predicted_digit": 5,
+      "confidence": 0.9940832257270813,
+      "bounding_box": [
+        1106,
+        397,
+        1162,
+        480
+      ],
+      "expected_digit": 5,
+      "correct": true
+    },
+    {
+      "position": 9,
+      "predicted_digit": 5,
+      "confidence": 0.7438308596611023,
+      "bounding_box": [
+        1205,
+        403,
+        1260,
+        462
+      ],
+      "expected_digit": 0,
+      "correct": false
+    },
+    {
+      "position": 10,
+      "predicted_digit": 2,
+      "confidence": 0.7360710501670837,
+      "bounding_box": [
+        1305,
+        393,
+        1367,
+        450
+      ],
+      "expected_digit": 0,
+      "correct": false
+    },
+    {
+      "position": 11,
+      "predicted_digit": 7,
+      "confidence": 0.9335978031158447,
+      "bounding_box": [
+        1425,
+        386,
+        1455,
+        454
+      ],
+      "expected_digit": 9,
+      "correct": false
+    }
+  ],
+  "expected_id": "23120205009",
+  "expected_count": 11,
+  "digit_count_matches": true,
+  "exact_match": false,
+  "correct_digits": 5,
+  "digit_accuracy_pct": 45.45454545454545,
+  "mismatches": [
+    {
+      "position": 1,
+      "expected_digit": "2",
+      "predicted_digit": "1"
+    },
+    {
+      "position": 3,
+      "expected_digit": "1",
+      "predicted_digit": "4"
+    },
+    {
+      "position": 4,
+      "expected_digit": "2",
+      "predicted_digit": "1"
+    },
+    {
+      "position": 9,
+      "expected_digit": "0",
+      "predicted_digit": "5"
+    },
+    {
+      "position": 10,
+      "expected_digit": "0",
+      "predicted_digit": "2"
+    },
+    {
+      "position": 11,
+      "expected_digit": "9",
+      "predicted_digit": "7"
+    }
+  ]
+}

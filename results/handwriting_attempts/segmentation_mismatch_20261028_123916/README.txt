@@ -1,0 +1,1 @@
+﻿This is an earlier unsuccessful segmentation attempt with one detected region. Individual-digit accuracy is undefined because the expected count is 11. These files are kept for reference; the final experiment is in results/handwriting/.

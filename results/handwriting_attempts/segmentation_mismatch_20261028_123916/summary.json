@@ -1,0 +1,36 @@
+{
+  "image": "handwriting/student_id.jpeg",
+  "checkpoint": "models/baseline.pt",
+  "experiment": "baseline",
+  "best_epoch": 6,
+  "preprocessing": {
+    "threshold": 110,
+    "min_area": 20,
+    "background_blur_radius": 39.975,
+    "mean": 0.1307,
+    "std": 0.3081,
+    "centering": "center_of_mass"
+  },
+  "predicted_id": "5",
+  "detected_count": 1,
+  "predictions": [
+    {
+      "position": 1,
+      "predicted_digit": 5,
+      "confidence": 0.9691344499588013,
+      "bounding_box": [
+        399,
+        125,
+        523,
+        1357
+      ]
+    }
+  ],
+  "expected_id": "23120205009",
+  "expected_count": 11,
+  "digit_count_matches": false,
+  "exact_match": false,
+  "correct_digits": null,
+  "digit_accuracy_pct": null,
+  "mismatches": null
+}

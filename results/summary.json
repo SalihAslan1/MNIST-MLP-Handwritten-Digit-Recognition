@@ -1,0 +1,62 @@
+{
+  "seed": 42,
+  "data_split": {
+    "train": 50000,
+    "validation": 10000,
+    "test": 10000
+  },
+  "model_selection_metric": "validation_loss",
+  "selected_model": "baseline",
+  "experiments": [
+    {
+      "experiment": "baseline",
+      "hidden_sizes": [
+        256,
+        128
+      ],
+      "learning_rate": 0.001,
+      "batch_size": 64,
+      "epochs_requested": 10,
+      "best_epoch": 6,
+      "train_loss": 0.03447361559953541,
+      "val_loss": 0.08798571792393922,
+      "train_accuracy_pct": 98.84,
+      "val_accuracy_pct": 97.7,
+      "training_seconds": 164.80171780008823,
+      "test_loss": 0.07798542741475394,
+      "test_accuracy_pct": 97.75
+    },
+    {
+      "experiment": "small",
+      "hidden_sizes": [
+        128,
+        64
+      ],
+      "learning_rate": 0.001,
+      "batch_size": 64,
+      "epochs_requested": 10,
+      "best_epoch": 4,
+      "train_loss": 0.06540148319281637,
+      "val_loss": 0.11048417328596115,
+      "train_accuracy_pct": 97.906,
+      "val_accuracy_pct": 96.76,
+      "training_seconds": 156.5241297999164
+    },
+    {
+      "experiment": "higher_lr",
+      "hidden_sizes": [
+        256,
+        128
+      ],
+      "learning_rate": 0.01,
+      "batch_size": 64,
+      "epochs_requested": 10,
+      "best_epoch": 5,
+      "train_loss": 0.1608936635965109,
+      "val_loss": 0.20086800602674484,
+      "train_accuracy_pct": 95.724,
+      "val_accuracy_pct": 95.76,
+      "training_seconds": 183.84507499996107
+    }
+  ]
+}
